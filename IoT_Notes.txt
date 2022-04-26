@@ -1,0 +1,28 @@
+                                                           IoT Notes
+
+***********What is IoT?*******************
+	*IOT Introduction
+		-->The internet of things, or IoT, is a system of interrelated computing devices, mechanical and digital machines, objects, 
+		    animals or people that are provided with unique identifiers (UIDs) and the ability to transfer data over a network without 
+		    requiring human-to-human or human-to-computer interaction.
+		-->A network of physical objects
+		-->That colects and exchange data
+		-->Built for specific purpose
+
+	*Evolved and enhanced with the advent of multiple technologies:
+		->Wireless Communication
+		->Embedded Systems
+		->Real-time analytics
+		->Cloud Computing 
+		-> AI, ML
+
+-->We learned about MQTT Broker
+	->First after installing mqtt in linux,
+		we checked  that mqtt is proprely installed or not. for that we run one command
+		netstat -ltn (If  there is a port no 1883 is running it is successfdully installed.)
+	-> We can simply publish and subscribe the messages to the particular topic like this.
+		- mosquitto_pub -t "iot/topic1" -m "hello Iot"
+		- mosquitto_sub  "iot/topic1"
+
+19/04/2022
+--> We learned to install mondodb and the use and structure of mogo database.
